@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+main {
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left; /* Align text to the left */
+    background-color: antiquewhite;
+    width: 100%; /* Takes up 100% of screen width */
+    max-width: 500px; /* Limits the width on larger screens */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start (top left) */
+}
+
+header {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+#answers-container {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+label {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center the radio button vertically */
+    width: 100%; /* Makes the label take full width */
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-bottom: 1px; /* Adds space between each option */
+    padding: 5px; /* Add some padding for better appearance */
+}
+
+input[type="radio"] {
+    margin-right: 10px; /* Add space between radio button and text */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns options to the top left */
+}
+
+#feedback-message {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#score-container {
+    margin-top: 20px;
+}
+#start-btn , #next-btn{
+    border: 2px solid color( rgb(9, 41, 54) green rgba(74, 74, 214, 0.635));
+    border-radius: 5px;
+    padding: 5px;
+}
